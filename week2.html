@@ -1,27 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>Week 2 – Types of Insurance (Life, Health, Auto, etc.)</title>
+  <title>هفته دوم - زبان بیمه</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
     body {
       font-family: 'Vazirmatn', sans-serif;
+      background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
       margin: 0;
       padding: 0;
-      background: linear-gradient(135deg, #eef2f3, #cfd9df);
-      color: #333;
     }
     header {
       background-color: #005c97;
       color: white;
       text-align: center;
       padding: 1.5rem;
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       font-weight: bold;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
     .container {
       display: flex;
@@ -35,44 +31,48 @@
       border-radius: 12px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       padding: 1.2rem;
-      width: 220px;
+      width: 240px;
       text-align: center;
-      font-size: 1rem;
+      font-size: 1.05rem;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
-      cursor: pointer;
     }
     .box:hover {
       transform: translateY(-5px);
-      box-shadow: 0 8px 15px rgba(0,0,0,0.15);
-      background: #f1f9ff;
+      background-color: #e6f0fa;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
     }
-    footer {
-      margin-top: 2rem;
-      background: #005c97;
-      color: rgba(255, 255, 255, 0.7);
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    .back {
       text-align: center;
-      padding: 0.7rem;
-      font-size: 0.8rem;
+      margin-top: 2rem;
+    }
+    .back a {
+      color: #005c97;
+      font-size: 1rem;
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
 
-<header>📅 Week 2 – Types of Insurance (Life, Health, Auto, etc.)</header>
+<header>هفته دوم - زبان تخصصی بیمه</header>
 
 <div class="container">
-  <div class="box">📘 Reading Comprehension</div>
-  <div class="box">🈷️ ترجمه</div>
-  <div class="box">❓ Multiple-Choice Questions</div>
-  <div class="box">📝 Grammar Exercises</div>
-  <div class="box">📚 Vocabulary Test</div>
-  <div class="box">🗣️ Conversation</div>
-  <div class="box">🗣️📖 Conversation + ترجمه</div>
+  <a href="week2/reading.html"><div class="box">📖 Reading Comprehension</div></a>
+  <a href="week2/translation.html"><div class="box">📝 ترجمه</div></a>
+  <a href="week2/mcq.html"><div class="box">❓ Multiple-Choice Questions</div></a>
+  <a href="week2/grammar.html"><div class="box">🧩 Grammar Exercises</div></a>
+  <a href="week2/vocab.html"><div class="box">📚 Vocabulary Test</div></a>
+  <a href="week2/conversation.html"><div class="box">🗣️ Conversation</div></a>
+  <a href="week2/conversation_translation.html"><div class="box">🗣️ Conversation + ترجمه</div></a>
 </div>
 
-<footer>
-  زبان تخصصی بیمه | دانشگاه علمی کاربردی سبا | استاد: خانم ساراسادات حسینی | طراحی ربات: سینا نوری
-</footer>
+<div class="back">
+  <a href="index.html">⬅ بازگشت به صفحه اصلی</a>
+</div>
 
 </body>
 </html>
