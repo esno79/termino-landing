@@ -1,79 +1,84 @@
-body {
-  font-family: 'Vazirmatn', sans-serif;
-  background-color: #f7f9fb;
-  margin: 0;
-  padding: 2rem;
-}
-.container {
-  max-width: 960px;
-  margin: auto;
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-h1 {
-  text-align: center;
-  color: #2c3e50;
-  font-size: 1.8rem;
-  margin-bottom: 2rem;
-}
-p {
-  margin: 1.5rem 0;
-  font-size: 1.2rem;
-  line-height: 2;
-  text-align: justify;
-}
-strong {
-  direction: ltr;
-  display: block;
-  text-align: left;
-  font-weight: bold;
-}
-.translation {
-  color: #444;
-  font-size: 1.15rem;
-  background: #f1f5f8;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  display: inline-block;
-  margin-top: 0.4rem;
-  direction: rtl;
-  text-align: right;
-}
-.glossary {
-  margin-top: 3rem;
-  background: #fdfdfd;
-  border: 1px solid #ccc;
-  border-radius: 12px;
-  padding: 1.5rem;
-}
-.glossary h2 {
-  text-align: center;
-  color: #16a085;
-  font-size: 1.6rem;
-}
-.glossary h3 {
-  color: #2980b9;
-  margin-top: 1rem;
-}
-.glossary ul {
-  list-style-type: none;
-  padding: 0;
-}
-.glossary li {
-  margin: 0.4rem 0;
-  font-size: 1.1rem;
-}
-.back-button {
-  text-align: center;
-  margin-top: 2rem;
-}
-.back-button a {
-  background-color: #3498db;
-  color: white;
-  padding: 0.6rem 1.2rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 1rem;
-}
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>ترجمه متن</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      background-color: #f7f9fb;
+      margin: 0;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
+    .block {
+      margin-bottom: 1.8rem;
+    }
+    .english {
+      direction: ltr;
+      text-align: left;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .farsi {
+      direction: rtl;
+      text-align: justify;
+      background: #f1f5f8;
+      padding: 0.5rem 1rem;
+      margin-top: 0.3rem;
+      border-radius: 8px;
+      color: #444;
+    }
+    .back {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .back a {
+      background-color: #3498db;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📝 ترجمه متن آموزشی</h1>
+
+    <div class="block">
+      <div class="english">Understanding Different Types of Insurance</div>
+      <div class="farsi">درک انواع مختلف بیمه</div>
+    </div>
+    <div class="block">
+      <div class="english">Insurance is a multifaceted industry that provides various products designed to mitigate financial risks associated with everyday life.</div>
+      <div class="farsi">بیمه یک صنعت چندوجهی است که محصولات مختلفی را برای کاهش ریسک‌های مالی مرتبط با زندگی روزمره ارائه می‌دهد.</div>
+    </div>
+    <div class="block">
+      <div class="english">Among the most common types of insurance are life, health, auto, and property insurance, each serving distinct purposes and addressing specific needs of policyholders.</div>
+      <div class="farsi">از رایج‌ترین انواع بیمه می‌توان به بیمه عمر، سلامت، خودرو و اموال اشاره کرد که هر یک اهداف متفاوتی داشته و نیازهای خاص بیمه‌گذاران را پوشش می‌دهند.</div>
+    </div>
+
+    <!-- در اینجا می‌توانید خطوط بیشتر از فایل اصلی اضافه کنید -->
+
+    <div class="back">
+      <a href="../week2.html">⬅ بازگشت</a>
+    </div>
+  </div>
+</body>
+</html>
