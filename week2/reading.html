@@ -1,90 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
+  <title>Reading Comprehension</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Reading Comprehension - Week 2</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Vazirmatn', sans-serif;
+      background-color: #f7f9fb;
       margin: 0;
-      padding: 0;
-      background-color: #f4f6f8;
+      padding: 2rem;
     }
     .container {
       max-width: 960px;
-      margin: 0 auto;
+      margin: auto;
+      background-color: #fff;
       padding: 2rem;
-      background: #fff;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      border-radius: 10px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
     h1 {
+      text-align: center;
       color: #2c3e50;
       font-size: 1.8rem;
-      text-align: center;
+      margin-bottom: 2rem;
     }
-    p {
-      line-height: 1.8;
-      color: #333;
+    .block {
+      margin-bottom: 1.8rem;
+    }
+    .english {
+      direction: ltr;
+      text-align: left;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .farsi {
+      direction: rtl;
       text-align: justify;
+      background: #f1f5f8;
+      padding: 0.5rem 1rem;
+      margin-top: 0.3rem;
+      border-radius: 8px;
+      color: #444;
     }
-    .actions {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
+    .back {
+      text-align: center;
       margin-top: 2rem;
     }
-    .actions button {
-      padding: 0.6rem 1.2rem;
-      font-size: 1rem;
-      margin: 0.5rem 0;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-    .play-button {
+    .back a {
       background-color: #3498db;
-      color: #fff;
-    }
-    .back-button {
-      background-color: #2ecc71;
-      color: #fff;
-    }
-    @media (max-width: 600px) {
-      .actions {
-        flex-direction: column;
-        align-items: center;
-      }
-      h1 {
-        font-size: 1.5rem;
-      }
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1rem;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Reading Comprehension: Understanding Different Types of Insurance</h1>
-    <p>Insurance is a multifaceted industry that provides various products designed to mitigate financial risks associated with everyday life. Among the most common types of insurance are life, health, auto, and property insurance, each serving distinct purposes and addressing specific needs of policyholders.</p>
-    <p>Life insurance is one of the oldest forms of insurance, designed to provide financial security to beneficiaries in the event of the policyholder's death. This type of insurance typically falls into two categories: term life insurance, which provides coverage for a specified period, and whole life insurance, which offers coverage for the policyholder's entire life, accumulating a cash value over time.</p>
-    <p>The decision to purchase life insurance often stems from a desire to ensure that loved ones are financially protected against the loss of income that may result from the policyholder's untimely death.</p>
-    <p>Health insurance, on the other hand, has gained prominence in recent decades, particularly in response to escalating medical costs. This type of insurance covers a range of medical services, including doctor visits, hospital stays, surgeries, and preventive care. Health insurance plans vary widely, with some offering comprehensive coverage while others provide limited benefits. In many countries, employers provide health insurance as part of their employee benefits, but individuals can also purchase their own plans.</p>
-    <p>Auto insurance is mandated in most jurisdictions, requiring drivers to maintain coverage to protect against potential liabilities arising from vehicle-related accidents. This type of insurance typically includes liability coverage, which pays for damages caused to other vehicles and property in an accident, as well as collision coverage, which covers damages to the policyholder's vehicle. Comprehensive coverage is also available, protecting against non-collision incidents such as theft, vandalism, and natural disasters.</p>
-    <p>Property insurance encompasses various types of coverage designed to protect individuals and businesses against loss or damage to their physical assets. Homeowners insurance is a prominent form of property insurance, safeguarding against risks such as fire, theft, and natural disasters. Renters insurance, while similar, provides coverage for personal belongings within a rented property but does not cover the structure itself. Businesses often purchase commercial property insurance to protect their assets against a variety of risks, including equipment failure, theft, and liability claims.</p>
-    <p>While each type of insurance serves a unique function, they all share common principles. Insurers rely on the law of large numbers, which states that as the number of similar exposure units increases, the accuracy of loss predictions improves. By pooling premiums from a large number of policyholders, insurance companies can effectively distribute risk and offer coverage at affordable rates. However, the complexity of insurance products can lead to confusion among consumers, who may struggle to understand the details of their policies.</p>
-    <p>In conclusion, understanding the various types of insurance is essential for making informed decisions about financial protection. By assessing individual needs and potential risks, policyholders can choose the appropriate coverage to safeguard their financial futures and provide peace of mind.</p>
+    <h1>📖 Reading Comprehension + ترجمه</h1>
 
-    <div class="actions">
-      <button class="play-button" onclick="playAudio()">🎧 پخش صوت</button>
-      <a href="../week2.html"><button class="back-button">🔙 بازگشت</button></a>
+    <div class="block"><div class="english">Understanding Different Types of Insurance</div><div class="farsi">درک انواع مختلف بیمه</div></div>
+    <div class="block"><div class="english">Insurance is a multifaceted industry that provides various products designed to mitigate financial risks associated with everyday life.</div><div class="farsi">بیمه یک صنعت چندوجهی است که محصولات مختلفی را برای کاهش ریسک‌های مالی مرتبط با زندگی روزمره ارائه می‌دهد.</div></div>
+    <div class="block"><div class="english">Among the most common types of insurance are life, health, auto, and property insurance, each serving distinct purposes and addressing specific needs of policyholders.</div><div class="farsi">از رایج‌ترین انواع بیمه می‌توان به بیمه عمر، سلامت، خودرو و اموال اشاره کرد که هر یک اهداف متفاوتی داشته و نیازهای خاص بیمه‌گذاران را پوشش می‌دهند.</div></div>
+    <div class="block"><div class="english">Life insurance is one of the oldest forms of insurance, designed to provide financial security to beneficiaries in the event of the policyholder's death.</div><div class="farsi">بیمه عمر یکی از قدیمی‌ترین انواع بیمه است که برای تأمین امنیت مالی ذی‌نفعان در صورت فوت بیمه‌گذار طراحی شده است.</div></div>
+    <div class="block"><div class="english">This type of insurance typically falls into two categories: term life insurance, which provides coverage for a specified period, and whole life insurance, which offers coverage for the policyholder's entire life, accumulating a cash value over time.</div><div class="farsi">این نوع بیمه معمولاً به دو دسته تقسیم می‌شود: بیمه عمر مدت‌دار که پوشش را برای یک دوره مشخص فراهم می‌کند، و بیمه عمر تمام‌عمر که پوشش را برای کل عمر بیمه‌گذار ارائه داده و با گذشت زمان ارزش نقدی انباشته می‌کند.</div></div>
+    <div class="block"><div class="english">The decision to purchase life insurance often stems from a desire to ensure that loved ones are financially protected against the loss of income that may result from the policyholder's untimely death.</div><div class="farsi">تصمیم به خرید بیمه عمر معمولاً ناشی از تمایل به اطمینان از حمایت مالی عزیزان در برابر از دست‌دادن درآمدی است که ممکن است در اثر فوت نابه‌هنگام بیمه‌گذار رخ دهد.</div></div>
+    <div class="block"><div class="english">Health insurance, on the other hand, has gained prominence in recent decades, particularly in response to escalating medical costs.</div><div class="farsi">از سوی دیگر، بیمه سلامت در دهه‌های اخیر اهمیت بیشتری یافته است، به‌ویژه در پاسخ به افزایش هزینه‌های پزشکی.</div></div>
+    <div class="block"><div class="english">This type of insurance covers a range of medical services, including doctor visits, hospital stays, surgeries, and preventive care.</div><div class="farsi">این نوع بیمه طیف وسیعی از خدمات پزشکی را پوشش می‌دهد، از جمله ویزیت پزشک، بستری در بیمارستان، جراحی‌ها و مراقبت‌های پیشگیرانه.</div></div>
+    <div class="block"><div class="english">Health insurance plans vary widely, with some offering comprehensive coverage while others provide limited benefits.</div><div class="farsi">طرح‌های بیمه سلامت بسیار متنوع هستند؛ برخی پوشش جامع ارائه می‌دهند در حالی که برخی دیگر مزایای محدودی دارند.</div></div>
+    <div class="block"><div class="english">In many countries, employers provide health insurance as part of their employee benefits, but individuals can also purchase their own plans.</div><div class="farsi">در بسیاری از کشورها، کارفرمایان بیمه سلامت را به عنوان بخشی از مزایای کارکنان ارائه می‌دهند، اما افراد نیز می‌توانند طرح‌های شخصی خود را خریداری کنند.</div></div>
+    <div class="block"><div class="english">Auto insurance is mandated in most jurisdictions, requiring drivers to maintain coverage to protect against potential liabilities arising from vehicle-related accidents.</div><div class="farsi">بیمه خودرو در بیشتر حوزه‌های قضایی اجباری است و رانندگان ملزم به حفظ پوشش برای محافظت در برابر مسئولیت‌های ناشی از حوادث مرتبط با وسیله نقلیه هستند.</div></div>
+    <div class="block"><div class="english">This type of insurance typically includes liability coverage, which pays for damages caused to other vehicles and property in an accident, as well as collision coverage, which covers damages to the policyholder's vehicle.</div><div class="farsi">این نوع بیمه معمولاً شامل پوشش مسئولیت (که خسارت‌های واردشده به وسایل نقلیه و اموال دیگر در یک تصادف را پرداخت می‌کند) و پوشش تصادف (که خسارت‌های وسیله نقلیه بیمه‌گذار را پوشش می‌دهد) می‌شود.</div></div>
+    <div class="block"><div class="english">Comprehensive coverage is also available, protecting against non-collision incidents such as theft, vandalism, and natural disasters.</div><div class="farsi">پوشش جامع نیز موجود است که در برابر حوادث غیرتصادفی مانند سرقت، تخریب و بلایای طبیعی محافظت می‌کند.</div></div>
+    <div class="block"><div class="english">Property insurance encompasses various types of coverage designed to protect individuals and businesses against loss or damage to their physical assets.</div><div class="farsi">بیمه اموال شامل انواع پوشش‌هایی است که برای محافظت از افراد و کسب‌وکارها در برابر از دست‌دادن یا آسیب‌دیدن دارایی‌های فیزیکی طراحی شده‌اند.</div></div>
+    <div class="block"><div class="english">Homeowners insurance is a prominent form of property insurance, safeguarding against risks such as fire, theft, and natural disasters.</div><div class="farsi">بیمه صاحب‌خانه یکی از اشکال برجسته بیمه اموال است که در برابر خطراتی مانند آتش‌سوزی، سرقت و بلایای طبیعی محافظت می‌کند.</div></div>
+    <div class="block"><div class="english">Renters insurance, while similar, provides coverage for personal belongings within a rented property but does not cover the structure itself.</div><div class="farsi">بیمه مستأجران، اگرچه مشابه است، پوشش را برای وسایل شخصی درون ملک اجاره‌ای فراهم می‌کند اما ساختار خود ملک را پوشش نمی‌دهد.</div></div>
+    <div class="block"><div class="english">Businesses often purchase commercial property insurance to protect their assets against a variety of risks, including equipment failure, theft, and liability claims.</div><div class="farsi">کسب‌وکارها اغلب بیمه اموال تجاری را برای محافظت از دارایی‌های خود در برابر انواع خطرات، از جمله خرابی تجهیزات، سرقت و ادعاهای مسئولیت خریداری می‌کنند.</div></div>
+    <div class="block"><div class="english">While each type of insurance serves a unique function, they all share common principles.</div><div class="farsi">اگرچه هر نوع بیمه عملکرد منحصر به فردی دارد، اما همه آن‌ها اصول مشترکی را به اشتراک می‌گذارند.</div></div>
+    <div class="block"><div class="english">Insurers rely on the law of large numbers, which states that as the number of similar exposure units increases, the accuracy of loss predictions improves.</div><div class="farsi">بیمه‌گران به قانون اعداد بزرگ تکیه می‌کنند که بیان می‌کند با افزایش تعداد واحدهای مشابه در معرض خطر، دقت پیش‌بینی خسارت‌ها بهبود می‌یابد.</div></div>
+    <div class="block"><div class="english">By pooling premiums from a large number of policyholders, insurance companies can effectively distribute risk and offer coverage at affordable rates.</div><div class="farsi">با جمع‌آوری حق بیمه از تعداد زیادی از بیمه‌گذاران، شرکت‌های بیمه می‌توانند ریسک را به‌طور مؤثر توزیع کرده و پوشش را با نرخ‌های مقرون‌به‌صرفه ارائه دهند.</div></div>
+    <div class="block"><div class="english">However, the complexity of insurance products can lead to confusion among consumers, who may struggle to understand the details of their policies.</div><div class="farsi">با این حال، پیچیدگی محصولات بیمه‌ای می‌تواند باعث سردرگمی مصرف‌کنندگان شود، که ممکن است در درک جزئیات بیمه‌نامه‌های خود دچار مشکل شوند.</div></div>
+    <div class="block"><div class="english">In conclusion, understanding the various types of insurance is essential for making informed decisions about financial protection.</div><div class="farsi">در نتیجه، درک انواع مختلف بیمه برای اتخاذ تصمیمات آگاهانه درباره محافظت مالی ضروری است.</div></div>
+    <div class="block"><div class="english">By assessing individual needs and potential risks, policyholders can choose the appropriate coverage to safeguard their financial futures and provide peace of mind.</div><div class="farsi">با ارزیابی نیازهای فردی و ریسک‌های احتمالی، بیمه‌گذاران می‌توانند پوشش مناسب را برای ایمن‌سازی آینده مالی خود و ایجاد آرامش خاطر انتخاب کنند.</div></div>
+
+    <div class="back">
+      <a href="../week2.html">⬅ بازگشت</a>
     </div>
   </div>
-
-  <script>
-    function playAudio() {
-      alert("پخش صوت در نسخه اصلی فعال می‌شود.");
-    }
-  </script>
 </body>
 </html>
