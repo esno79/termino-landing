@@ -1,55 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>translation.html</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ترجمه متن هفته سوم</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&family=Roboto:wght@400;500&display=swap">
   <style>
-  body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding: 2rem;
-    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
-    color: #2d3436;
-  }
-  .container {
-    max-width: 850px;
-    margin: auto;
-    background: #fff;
-    padding: 2rem;
-    border-radius: 14px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-  }
-  h1 {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: #005c97;
-  }
-  p {
-    text-align: justify;
-    font-size: 1.05rem;
-    line-height: 1.8;
-    margin-bottom: 1rem;
-  }
-  .back {
-    text-align: center;
-    margin-top: 2rem;
-  }
-  .back a {
-    background: #005c97;
-    color: #fff;
-    text-decoration: none;
-    padding: 0.6rem 1.2rem;
-    border-radius: 8px;
-  }
-</style>
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      background-color: #f7f9fb;
+      margin: 0;
+      padding: 2rem;
+      color: #333;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .box {
+      border: 1px solid #e1e5eb;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 12px;
+      background-color: #fefefe;
+      transition: all 0.3s ease;
+    }
+    .box:hover {
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+      border-color: #c9d3e0;
+    }
+    .en {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 1.1rem;
+      color: #1a365d;
+      direction: ltr;
+      text-align: left;
+      line-height: 1.6;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px dashed #e1e5eb;
+      margin-bottom: 1rem;
+    }
+    .fa {
+      font-weight: normal;
+      font-size: 1rem;
+      color: #2d3748;
+      direction: rtl;
+      text-align: right;
+      line-height: 1.8;
+      padding: 1rem;
+      background-color: #f8fafc;
+      border-radius: 8px;
+      border-right: 3px solid #4299e1;
+    }
+    h2 {
+      color: #2b6cb0;
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #ebf4ff;
+    }
+    h3 {
+      color: #4299e1;
+      margin: 1.5rem 0 1rem;
+      font-size: 1.2rem;
+    }
+    .emoji {
+      font-size: 1.2em;
+      margin-left: 0.3rem;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
-    <h1>Translation</h1>
-    <p><strong>Insurance policy</strong><br>بیمه‌نامه</p>
-    <div class="back">
-      <a href="../week3.html">⬅ Back</a>
+    <h2>هفته سوم: بیمه نامه ها و حق بیمه ها</h2>
+    <h3><span class="emoji">📖</span> متن درک مطلب</h3>
+
+    <div class="box">
+      <p class="en">An insurance policy is a legal contract between an insurer and a policyholder that outlines the terms and conditions of the coverage.</p>
+      <p class="fa">بیمه‌نامه یک قرارداد قانونی بین بیمه‌گر و بیمه‌گذار است که شرایط و ضوابط پوشش بیمه را مشخص می‌کند.</p>
+    </div>
+    
+    <div class="box">
+      <p class="en">At the heart of this agreement is the premium, which is the payment the policyholder makes to maintain the coverage.</p>
+      <p class="fa">در هسته این توافق، حق بیمه قرار دارد که مبلغی است بیمه‌گذار برای حفظ پوشش بیمه پرداخت می‌کند.</p>
+    </div>
+
+    <h2><span class="emoji">📚</span> واژگان کلیدی</h2>
+
+    <h3><span class="emoji">🔤</span> A</h3>
+    <div class="box">
+      <p class="en">Accident history</p>
+      <p class="fa"><span class="emoji">🚗</span> سوابق تصادف</p>
+    </div>
+    <div class="box">
+      <p class="en">Actuary</p>
+      <p class="fa"><span class="emoji">📊</span> کارشناس محاسبات بیمه</p>
+    </div>
+    <div class="box">
+      <p class="en">Adjuster</p>
+      <p class="fa"><span class="emoji">🧾</span> کارشناس تنظیم خسارت</p>
+    </div>
+    <div class="box">
+      <p class="en">Assessment</p>
+      <p class="fa"><span class="emoji">📝</span> ارزیابی</p>
     </div>
   </div>
 </body>
